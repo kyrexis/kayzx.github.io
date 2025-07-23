@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Information KayzX</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0a0a1c;
+      background-image: repeating-linear-gradient(
+        135deg,
+        transparent,
+        transparent 40px,
+        rgba(255, 0, 255, 0.05) 40px,
+        rgba(255, 0, 255, 0.05) 80px
+      );
+      min-height: 1000px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      position: relative;
+      color: white;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(255, 0, 255, 0.15);
+      padding: 35px 20px;
+      width: 100%;
+      max-width: 420px; /* LEBAR AGAK DIKECILKAN */
+      text-align: center;
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      margin-top: 5px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .motto {
+      font-size: 14px;
+      color: #aaa;
+      margin-top: 10px;
+      margin-bottom: 25px;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 16px 20px;
+      margin: 10px 0;
+      font-size: 16px;
+      color: white;
+      border-radius: 12px;
+      border: 1px solid #444;
+      text-decoration: none;
+      transition: all 0.25s ease;
+    }
+
+    .button:hover {
+      background: #9900ff;
+      transform: scale(1.02);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://files.catbox.moe/untql6.jpg" alt="Profile">
+    <h1>Information KayzX</h1>
+    <div class="subtitle ">Designer & Developer</div>
+    <div class="motto ">Build the Future with Code 🚀</div>
+
+    <a href="https://wa.me/6285177086056" class="button" target="_blank">☎️🟢 WhatsApp</a>
+    <a href="https://wa.me/6283862556422" class="button" target="_blank">☎️🟢 WhatsApp²</a>
+    <a href="https://t.me/makloegj" class="button" target="_blank">☎️🔵 Telegram</a>
+    <a href="https://whatsapp.com/channel/0029Vb5R7ohElagz5qBSyX0F" class="button" target="_blank">💬 Saluran WhatsApp</a>
+    <a href="https://whatsapp.com/channel/0029VbAiMF7ATRSgsobmoq2v" class="button" target="_blank">💬 Saluran WhatsApp²</a>
+
+    <footer>© KayzX</footer>
+  </div>
+</body>
+</html>
